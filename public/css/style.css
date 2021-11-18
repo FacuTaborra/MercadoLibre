@@ -194,15 +194,6 @@ footer{
     align-items: center;
 }
 
-.main-footer{
-    width: 80%;
-    display: flex;
-    align-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    flex-direction: column;
-}
-
 .main-footer div{
     width: 100%;
     height: 100%;
@@ -219,7 +210,6 @@ footer{
     display: flex;
     justify-content: center;
 }
-
 
 footer i{
     color: #1259c3;;
@@ -252,10 +242,11 @@ footer i{
     .descuentos{
         width: 50%;
     }
-
+    
 }
 
 @media (min-width: 769px) {
+
     header nav {
         display: flex;
         justify-content: space-between;
@@ -281,4 +272,5 @@ footer i{
     main section div.productos article{
         width: 20%;
     }
+
 }
